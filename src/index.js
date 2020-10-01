@@ -14,7 +14,7 @@ module.exports = function check(str, bracketsConfig) {
      }
      
      if(bracketsConfig[j][0] === bracketsConfig[j][1] && str[i] === bracketsConfig[j][0]) {
-       if(result[result.length-2] === str[i] && result[result.length-2]!=undefined){
+       if(result[result.length-2] === str[i]){
          console.log(result)
           result.pop();    
           result.pop();
